@@ -1,6 +1,6 @@
 # Product
 
-a, b = [int(i) for i in input().split(' ')]
+a, b = map(int, input().split())
 
 if (a * b) % 2 == 0:
     print('Even')
